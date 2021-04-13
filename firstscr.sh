@@ -1,8 +1,8 @@
 #!/bin/bash
 for O in {1..3};do
-icc -O$O c.cpp -o yra
+icc -O$O c.cpp -o try
 echo
 echo "O"$O
-time ./yra
+time 'for i in {1..1000}; do ./try ;done'
 done
 ~
