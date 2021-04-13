@@ -27,7 +27,7 @@ quickSort(array, i, high);
 }
 int main()
 {
-int count = 100000;
+int count = 10000000;
 int array[count] ;
 for(int i = 0; i<count;i++)
 array[i]=count-i;
