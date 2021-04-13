@@ -1,4 +1,5 @@
 #!/bin/bash
+cd /home/grid/testbed/tb022/CS_lab3-main
 for O in {1..3};do
 icc -O$O c.cpp -o try
 echo
