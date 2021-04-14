@@ -5,6 +5,6 @@ for O in {1..3};do
 icc -O$O c.cpp -o try
 echo
 echo "O"$O
-time `for i in {1..1200000};do ./try;done`
+time `for i in {1..800};do ./try;done`
 done
 ~

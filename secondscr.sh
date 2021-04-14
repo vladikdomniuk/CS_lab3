@@ -6,6 +6,6 @@ for p in "${w1[@]}";do
 icc -O -m$p c.cpp -o yra
 echo
 echo $p
-time `for i in {1..1200000};do ./yra;done`
+time `for i in {1..800};do ./yra;done`
 done
 ~
