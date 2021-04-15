@@ -6,6 +6,6 @@ scr=_$(date +%A_%H_%M_%S_%N)
 icc -O$O c.cpp -o try$scr
 echo
 echo "O"$O
-time `for i in {1..700};do ./try$scr;done`
+time `for i in {1..800000};do ./try$scr;done`
 done
 ~
