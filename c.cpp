@@ -29,9 +29,12 @@ int main()
 {
 int count = 150000;
 int array[count] ;
+int n = sizeof(array)/sizeof(array[0]);
+for(int j = 0; j<100000;j++)
+{
 for(int i = 0; i<count;i++)
 array[i]=count-i;
-int n = sizeof(array)/sizeof(array[0]);
 quickSort(array, 0, n);
+}
 return 0;
 }
